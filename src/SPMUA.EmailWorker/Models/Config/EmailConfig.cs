@@ -9,9 +9,8 @@ namespace SPMUA.EmailWorker.Models.Config
     internal class EmailConfig
     {
         public string FromEmail { get; set; } = String.Empty;
-        public string ToEmail { get; set; } = String.Empty;
-        public string ToAdminEmail { get; set; } = String.Empty;
+        public string Password { get; set; } = String.Empty;
         public string SmtpClientHost { get; set; } = String.Empty;
-        public string SmtpClientPort { get; set; } = String.Empty;
+        public int SmtpClientPort { get; set; }
     }
 }

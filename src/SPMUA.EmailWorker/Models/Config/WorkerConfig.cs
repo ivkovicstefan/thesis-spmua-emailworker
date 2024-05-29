@@ -9,5 +9,7 @@ namespace SPMUA.EmailWorker.Models.Config
     internal class WorkerConfig
     {
         public int Delay { get; set; }
+        public int MaxNoOfAttemps { get; set; }
+        public int MaxNoOfItems { get; set; }
     }
 }
